@@ -35,7 +35,7 @@ function DropdownFrom() {
     <form>
       <div>
         <h2 style={{ textAlign: "center" }}>Dropdown Form</h2>
-        <label>First Dropdown :</label>
+        <label>My First Dropdown :</label>
         <select value={number1} id="number1" onChange={handleNumber1Change}>
           <option value="">Select a number</option>
           {[...Array(10).keys()].map((i) => (
@@ -44,7 +44,7 @@ function DropdownFrom() {
             </option>
           ))}
         </select>
-        <label>Second Dropdown :</label>
+        <label>My Second Dropdown :</label>
         <select
           id="number2"
           value={number2}
